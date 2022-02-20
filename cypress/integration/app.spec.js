@@ -2,10 +2,10 @@
 /// <reference types="Cypress" />
 
 // type definitions for custom commands like "createDefaultTodos"
-/// <reference types="../support" />
+/// <reference types="../support/" />
 
 // check this file using TypeScript if available
-// @ts-check
+// @ts-nocheck
 
 // ***********************************************
 // All of these tests are written to implement
