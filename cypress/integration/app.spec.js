@@ -107,6 +107,12 @@ describe('TodoMVC', function () {
       .eq(1)
       .find('label')
       .should('contain', TODO_ITEM_TWO)
+
+      // ANTONIO: fail test
+      cy.get('.todo-list li')
+      .eq(1)
+      .find('label')
+      .should('contain', 'FAIL')
     })
 
     it('adds items', function () {
